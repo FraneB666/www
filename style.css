@@ -3,11 +3,3 @@ margin-left: 50%;
 margin-right: 50%;
 color:red;
 }
-section {
-align-items: center;
-
-}
-#header {
-    background: url("imgs/header.jpeg");
-    /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
-}
