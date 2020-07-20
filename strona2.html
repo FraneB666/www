@@ -13,113 +13,62 @@
             crossorigin="anonymous"></script>
         <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Jeszcze nwm co</title>
+    <title>Twój text</title>
     <link rel="stylesheet" href="style.css">
     <style>
     #panel {
-        position: fixed;
-        top: 50px;
-        right: -272px;
-        z-index: 99999;
-        transition: right 0.5s ease-out 0s;
-    }
+      position: fixed;
+      top: 50px;
+      right: -272px;
+      z-index: 99999;
+      transition: right 0.5s ease-out 0s;
+  }
 
-    #panel:hover {
-        right: 0;
-    }
+  #panel:hover {
+      right: 0;
+  }
 
-    #panel #content {
-        width: 250px;
-        height: 300px;
-        padding: 10px;
-        border-top: 2px solid #C30011;
-        border-right: none;
-        border-bottom: 2px solid #C30011;
-        border-left: 2px solid #C30011;
-        z-index: 20;
-        background: #FFFFFF;
-        position: relative;
-        border-radius: 10px 0 0 10px;
-    }
+  #panel #content {
+      width: 250px;
+      height: 300px;
+      padding: 10px;
+      border-top: 2px solid #343A40;
+      border-right: none;
+      border-bottom: 2px solid #343A40;
+      border-left: 2px solid #343A40;
+      z-index: 20;
+      position: relative;
+      border-radius: 10px 0 0 10px;
+      background-color: white;
+  }
 
-    #panel #title {
-        width: 150px;
-        border: 2px solid #C30011;
-        background: #E61B2D;
-        color: #FFFFFF;
-        font-weight: bold;
-        border-radius: 10px;
-        padding: 5px 5px 25px 5px;
-        text-align: center;
-        position: relative;
-        top: 140px;
-        left: -90px;
-        transform: rotate(-90deg);
-        z-index: 1;
-    }
+  #panel #title {
+      width: 150px;
+      border: 2px solid #343A40;
+      color: #FFFFFF;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 5px 5px 25px 5px;
+      text-align: center;
+      position: relative;
+      top: 140px;
+      left: -90px;
+      transform: rotate(-90deg);
+      z-index: 1;
+  }
     #header {
         background: url("imgs/header.jpeg");
         /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
       }
-    #nwmco {
 
 
-    }
     #text {
 background-color: white;
-
+float:left;
+text-align: center;
 
     }
-    .select {
-    float: left;
-    position: relative;
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 7%;
-}    .select select {
-        font-family: 'Arial';
-        display: inline-block;
-        width: 100%;
-        cursor: pointer;
-        padding: 10px 15px;
-        outline: 0;
-        border: 0px solid #000000;
-        border-radius: 0px;
-        background: #e6e6e6;
-        color: #7b7b7b;
-        appearance: none;
-        -webkit-appearance: none;
-        -moz-appearance: none;
-    }
-        .select select::-ms-expand {
-            display: none;
-        }
-        .select select:hover,
-        .select select:focus {
-            color: #000000;
-            background: #cccccc;
-        }
-        .select select:disabled {
-            opacity: 0.5;
-            pointer-events: none;
-        }
-.select_arrow {
-    position: absolute;
-    top: 16px;
-    right: 15px;
-    pointer-events: none;
-    border-style: solid;
-    border-width: 8px 5px 0px 5px;
-    border-color: #7b7b7b transparent transparent transparent;
-}
-.select select:hover ~ .select_arrow,
-.select select:focus ~ .select_arrow {
-    border-top-color: #000000;
-}
-.select select:disabled ~ .select_arrow {
-    border-top-color: #cccccc;
-}
+
     </style>
   </head>
   <body>
@@ -130,38 +79,33 @@ background-color: white;
     <section>
     <nav id="navigacja" class="navbar bg-dark navbar-dark">
       <div class="container">
-          <a href="" class="navbar-brand"><i class="fas fa-binoculars mr-2"></i>Jeszcze nwm co</a>
+          <a href="" class="navbar-brand"><i class="fas fa-binoculars mr-2"></i>Twój text</a>
       </div>
-      <div class="select">
-      <select>
-          <option>-Wybierz-</option>
-          <option>Jeszcze nwm co</option>
-          <option>Jeszcze nwm co</option>
-          <option>Jeszcze nwm co</option>
-          <option>Jeszcze nwm co</option>
-      </select>
-      <div class="select_arrow">
-      </div>
-  </div>
+      <div id="panel">
+
+        <div id="title" class="bg-dark">
+            Twój text
+        </div>
+
+        <div id="content">
+            Twój text
+        </div>
+
+    </div>
 </nav> </section>
     <section id="header" class="jumbotron text-center">
-        <h1 class="display-3">Jeszcze nwm co</h1>
-        <p class="lead">Jeszcze nwm co</p>
-        <a href="" class="btn btn-primary">Jeszcze nwm co</a>
+        <h1 class="display-3">Twój text</h1>
+        <p class="lead">Twój text</p>
+        <a href="" class="btn btn-primary">Twoje hiperłącze</a>
 
     </section>
   </div>
-  <div id="panel">
-    <div id="title">
-        Jeszcze nwm co
-    </div>
-    <div id="content">
-        Jeszcze nwm co
-    </div>
-</div>
     <section id="nwmco" class="jumbotron text-center">
-      <div id="text">
-        Jeszcze nwm co
+      <div id="text" class="col-lg-6 mb-12">
+        Twój text
+      </div>
+      <div id="text" class="col-lg-6 mb-12">
+        Twój text
       </div>
     </section>
 
