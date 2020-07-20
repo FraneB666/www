@@ -16,7 +16,47 @@
     <title>Jeszcze nwm co</title>
     <link rel="stylesheet" href="style.css">
     <style>
+    #panel {
+        position: fixed;
+        top: 50px;
+        right: -272px;
+        z-index: 99999;
+        transition: right 0.5s ease-out 0s;
+    }
 
+    #panel:hover {
+        right: 0;
+    }
+
+    #panel #content {
+        width: 250px;
+        height: 300px;
+        padding: 10px;
+        border-top: 2px solid #C30011;
+        border-right: none;
+        border-bottom: 2px solid #C30011;
+        border-left: 2px solid #C30011;
+        z-index: 20;
+        background: #FFFFFF;
+        position: relative;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #panel #title {
+        width: 150px;
+        border: 2px solid #C30011;
+        background: #E61B2D;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 5px 5px 25px 5px;
+        text-align: center;
+        position: relative;
+        top: 140px;
+        left: -90px;
+        transform: rotate(-90deg);
+        z-index: 1;
+    }
     #header {
         background: url("imgs/header.jpeg");
         /* background: url("imgs/header.jpeg") center center / cover no-repeat; */
@@ -111,6 +151,14 @@ background-color: white;
 
     </section>
   </div>
+  <div id="panel">
+    <div id="title">
+        Jeszcze nwm co
+    </div>
+    <div id="content">
+        Jeszcze nwm co
+    </div>
+</div>
     <section id="nwmco" class="jumbotron text-center">
       <div id="text">
         Jeszcze nwm co
