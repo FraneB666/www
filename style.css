@@ -3,3 +3,7 @@ margin-left: 20%;
 margin-right: auto;
 height: auto;
 }
+#header {
+    background: url("imgs/header.jpeg");
+  
+}
