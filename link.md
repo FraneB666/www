@@ -1,2 +1,2 @@
-franeb666.github.io/www
+https://franeb666.github.io/www
 
